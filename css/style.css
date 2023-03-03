@@ -46,7 +46,7 @@ nav {
 }
 
 .btn-navbar {
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-decoration: none;
   color: black;
   padding: 0.2rem;
@@ -158,17 +158,17 @@ main {
   color: gray;
 }
 
-.price-container {
+.p-container {
   display: flex;
   align-items: center;
 }
 
-.price-offer {
+.p-offer {
   font-family: "Fraunces", serif;
   font-size: 1.8rem;
   color: black;
 }
-.price-normal {
+.p-normal {
   padding: 0 10%;
   font-size: 1.05em;
   font-family: "Montserrat", sans-serif;
