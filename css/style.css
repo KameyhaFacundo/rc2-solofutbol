@@ -181,12 +181,16 @@ footer {
   margin-top: auto;
   border-top: 0.125rem solid black;
   margin: 0 2rem;
-  height: 11vh;
+  height: 15vh;
+}
+
+footer h3 {
+  padding: 0;
 }
 
 .fa-brands {
-  font-size: 1.7rem;
-  padding: 2rem;
+  font-size: 1.5rem;
+  padding: 1rem;
 }
 
 i:hover {
