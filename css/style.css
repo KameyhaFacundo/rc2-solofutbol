@@ -1,5 +1,6 @@
 @import url(./reset.css);
 @import url("https://fonts.googleapis.com/css2?family=Mynerve&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
 
 .d-block {
   display: block;
@@ -17,18 +18,12 @@
 }
 
 body {
-  background-color: aliceblue;
-  font-family: "Noto-Sans-JP";
   display: flex;
   flex-direction: column;
 }
 
 header {
   height: 50vh;
-  /* background-image: url(https://i.pinimg.com/originals/7d/78/09/7d7809d63522a7bb95228dc6844c4dc9.jpg); */
-  /* background-position: center;
-  background-size: cover;
-  margin-top: auto; */
 }
 
 nav {
@@ -42,26 +37,39 @@ nav {
 }
 
 .nav-option {
-  margin: 0.825rem;
+  margin: 0.725rem;
 }
 
 .btn-navbar {
   font-size: 0.8rem;
-  text-decoration: none;
-  color: black;
-  padding: 0.2rem;
-  border-radius: 0.25rem;
-  border: 2px solid var(--fourth);
-  background-color: var(--third);
+  font-weight: 1000;
+  padding: 0.1rem;
   cursor: pointer;
-  transition: all 0.2s;
   font-family: "Mynerve", cursive;
   text-transform: uppercase;
-  font-weight: 600;
+  background: none;
+  border: 0;
+}
+
+.btn-navbar:hover {
+  text-decoration: underline;
+}
+
+.btn-navbar a:active {
+  color: darkblue;
 }
 
 ul {
   padding: 0.5125rem 0rem;
+}
+
+* {
+  outline: none;
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  text-decoration: none;
 }
 
 .logo {
@@ -95,9 +103,11 @@ h2 {
 }
 
 h3 {
+  font-family: "Rowdies", cursive;
   text-transform: uppercase;
   color: black;
   padding-bottom: 1rem;
+  padding-top: 1rem;
   font-size: 1rem;
 }
 
@@ -112,18 +122,6 @@ main {
 
 .grid-list-container {
   grid-template-columns: auto;
-}
-
-.card {
-  height: 15.2rem;
-  width: 80%;
-  margin: 2rem;
-  font-size: 2rem;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  border: 2px solid black;
-  transition: all 0.2s;
 }
 
 .container {
@@ -142,7 +140,7 @@ main {
 
 .img-container img:hover {
   width: 80%;
-  border: 1px solid cadetblue;
+  border: 2px solid cadetblue;
 }
 
 .text {
@@ -164,27 +162,26 @@ main {
 }
 
 .price-offer {
-  font-family: "Fraunces", serif;
   font-size: 1.8rem;
   color: black;
 }
+
 .price-normal {
   padding: 0 10%;
   font-size: 1.05em;
-  font-family: "Montserrat", sans-serif;
   text-decoration: line-through;
   color: red;
 }
 
-button {
-  background-color: green;
+a {
+  color: black;
 }
 
 footer {
   margin-top: auto;
   border-top: 0.125rem solid black;
   margin: 0 2rem;
-  height: 12vh;
+  height: 11vh;
 }
 
 .fa-brands {
@@ -194,4 +191,23 @@ footer {
 
 i:hover {
   font-size: 2rem;
+}
+
+.btn-climb {
+  position: fixed;
+  width: 50px;
+  line-height: 50px;
+  bottom: 20px;
+  right: 25px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 20px;
+  z-index: 100;
+  transition: all 300ms ease;
+}
+
+.btn-climb:hover {
+  background: #0e4623;
 }
