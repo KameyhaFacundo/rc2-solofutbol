@@ -158,17 +158,17 @@ main {
   color: gray;
 }
 
-.p-container {
+.price-container {
   display: flex;
   align-items: center;
 }
 
-.p-offer {
+.price-offer {
   font-family: "Fraunces", serif;
   font-size: 1.8rem;
   color: black;
 }
-.p-normal {
+.price-normal {
   padding: 0 10%;
   font-size: 1.05em;
   font-family: "Montserrat", sans-serif;
