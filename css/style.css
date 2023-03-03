@@ -1,0 +1,197 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Mynerve&display=swap");
+
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-grid {
+  display: grid;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: "Noto-Sans-JP";
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 50vh;
+  /* background-image: url(https://i.pinimg.com/originals/7d/78/09/7d7809d63522a7bb95228dc6844c4dc9.jpg); */
+  /* background-position: center;
+  background-size: cover;
+  margin-top: auto; */
+}
+
+nav {
+  display: block;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.525rem 2rem;
+}
+
+.nav-option {
+  margin: 0.825rem;
+}
+
+.btn-navbar {
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  padding: 0.2rem;
+  border-radius: 0.25rem;
+  border: 2px solid var(--fourth);
+  background-color: var(--third);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: "Mynerve", cursive;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+ul {
+  padding: 0.5125rem 0rem;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: black;
+  padding-top: 3rem;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: rgb(65, 42, 14);
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: black;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+main {
+  background-image: url(https://thumbs.dreamstime.com/b/textura-do-fundo-da-grama-verde-114534637.jpg);
+}
+
+.border {
+  border-bottom: 0.125rem solid black;
+  margin: 2rem 2rem;
+}
+
+.grid-list-container {
+  grid-template-columns: auto;
+}
+
+.card {
+  height: 15.2rem;
+  width: 80%;
+  margin: 2rem;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  transition: all 0.2s;
+}
+
+.container {
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  margin: 5% 15%;
+}
+
+.img-container img {
+  border-radius: 10px 10px 0 0;
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}
+
+.img-container img:hover {
+  width: 80%;
+  border: 1px solid cadetblue;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 5%;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-top: 1%;
+  color: gray;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+}
+
+.price-offer {
+  font-family: "Fraunces", serif;
+  font-size: 1.8rem;
+  color: black;
+}
+.price-normal {
+  padding: 0 10%;
+  font-size: 1.05em;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: line-through;
+  color: red;
+}
+
+button {
+  background-color: green;
+}
+
+footer {
+  margin-top: auto;
+  border-top: 0.125rem solid black;
+  margin: 0 2rem;
+  height: 12vh;
+}
+
+.fa-brands {
+  font-size: 1.7rem;
+  padding: 2rem;
+}
+
+i:hover {
+  font-size: 2rem;
+}
