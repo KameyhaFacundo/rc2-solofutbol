@@ -24,7 +24,7 @@ body {
 }
 
 header {
-  height: 60vh;
+  height: 65vh;
 }
 
 nav {
@@ -34,7 +34,7 @@ nav {
 .navbar {
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .nav-option {
@@ -89,6 +89,8 @@ a:visited {
 }
 
 h1 {
+  font-family: "Tillana";
+
   text-transform: uppercase;
   color: black;
   padding-top: 3.5rem;
@@ -97,10 +99,10 @@ h1 {
 }
 
 h2 {
+  font-family: "Diplomata";
   text-transform: uppercase;
   color: rgb(65, 42, 14);
-  font-size: 3.4rem;
-  font-weight: 700;
+  font-size: 2rem;
 }
 
 h3 {
@@ -113,7 +115,7 @@ h3 {
 }
 
 .form {
-  padding-top: 2rem;
+  padding: 2rem 2rem;
 }
 
 main {
