@@ -144,7 +144,7 @@ main {
 }
 
 .img-container img:hover {
-  width: 80%;
+  width: 60%;
   border: 2px solid cadetblue;
 }
 
@@ -200,7 +200,6 @@ footer h3 {
 .fa-brands {
   font-size: 1.5rem;
   padding: 1rem;
-  border: 2rem;
   cursor: pointer;
 }
 
