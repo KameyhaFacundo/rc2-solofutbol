@@ -34,7 +34,7 @@ nav {
 .navbar {
   justify-content: space-between;
   align-items: center;
-  padding: 0.525rem 2rem;
+  padding: 2rem 1rem;
 }
 
 .nav-option {
@@ -42,7 +42,7 @@ nav {
 }
 
 .btn-navbar {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 1000;
   padding: 0.08rem;
   cursor: pointer;
