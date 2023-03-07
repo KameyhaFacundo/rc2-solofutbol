@@ -3,6 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
 
+* {
+  outline: none;
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
 .d-block {
   display: block;
 }
@@ -64,15 +73,6 @@ ul {
   padding: 0.5125rem 0rem;
 }
 
-* {
-  outline: none;
-  text-decoration: none;
-}
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
 .logo {
   font-size: 1rem;
   color: black;
@@ -132,10 +132,12 @@ main {
 }
 
 .container {
-  width: 70%;
+  width: auto;
+  height: auto;
   background-color: white;
-  border-radius: 10px;
   margin: 5% 15%;
+  border: 2px solid white;
+  box-shadow: inset 0 0 2px #444444;
 }
 
 .img-container img {
@@ -145,8 +147,7 @@ main {
   object-fit: cover;
 }
 
-.img-container img:hover {
-  width: 60%;
+.container:hover {
   border: 2px solid cadetblue;
 }
 
@@ -226,4 +227,77 @@ footer h3 {
 
 .btn-climb:hover {
   background: #0e4623;
+}
+
+@media (min-width: 576px) {
+  .logo {
+    font-size: 2rem;
+  }
+
+  .btn-navbar {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.7rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-list-container {
+    grid-template-columns: auto auto;
+    grid: 1rem;
+  }
+
+  .container {
+    width: 62%;
+  }
+  .img-container img {
+    border-radius: 10px 10px 0 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    font-size: 3rem;
+  }
+
+  .btn-navbar {
+    font-size: 1.6rem;
+  }
+
+  h1 {
+    font-size: 5.2rem;
+  }
+  h2 {
+    font-size: 2.9rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .grid-list-container {
+    grid-template-columns: auto auto auto;
+  }
+  .container {
+    width: 60%;
+  }
+
+  .img-container img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+  }
+  main {
+    padding: 0 2%;
+  }
 }
